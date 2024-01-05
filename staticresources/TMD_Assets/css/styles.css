@@ -1,0 +1,1411 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	color: #777B7F; 
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Inter', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	color: #777B7F; 
+	margin: 0;
+}
+
+*:focus {
+	outline: none;
+}
+
+p {
+	font-size: 16px;
+	color: #777B7F; 
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li {
+	list-style: none;
+	color: #777B7F; 
+}
+
+
+/* Header */
+
+.pageSize{
+	width: 1400px;
+	margin: 0 auto;
+}
+.mainHeader{
+	background-color: #FEFBF6;
+	padding: 10.5px 0;
+	position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+.headerFlex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.headerLogo a img{
+	width:327px;
+}
+.headerMenu ul li{
+	border-top: 2px solid transparent;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	margin-right: 22px;
+	padding: 17px 0px;
+}
+.headerMenu ul li a{
+	color: #999C9F;
+	text-decoration: none;
+    font-size: 16px;
+	font-weight: 600;
+}
+.headerMenu ul li:hover, .headerMenu ul li.slds-is-active{
+	border-top: 2px solid #0C306A;
+}
+.headerMenu ul li:hover a,  .headerMenu ul li.slds-is-active a{
+	color: #0C306A;
+}
+.headerMenu ul li:hover.loginBtn{
+	border-top: 2px solid transparent;;
+	color: #343A40;
+}
+.headerMenu ul li.loginBtn a{
+	background-color: #FFCD6D;
+	border-bottom: 2px solid #B4913A;
+	text-transform: uppercase;
+	color: #343A40;
+	padding: 10px 14px;
+    vertical-align: middle;
+	border-radius: 4px;
+}
+.headerMenu ul li.loginBtn{
+	margin-right: 0px;
+}
+.headerMenu ul li.loginBtn a img{
+	vertical-align: middle;
+	width: 14px;
+    padding-right: 3px;
+}
+.headerMenu ul ul {
+    -webkit-box-shadow: 0px 7px 6px 0px #cccccc6b;
+    -moz-box-shadow: 0px 7px 6px 0px #cccccc6b;
+    box-shadow: 0px 7px 6px 0px #cccccc6b;
+    background: white;
+    position: absolute;
+    text-align: left;
+    display: none;
+    padding: 15px !important;
+    width: 305px;
+    z-index: 99;
+    top: 99%;
+    right: 0;
+}
+.headerMenu ul ul li {
+    display: block !important;
+    border-bottom: 1px solid #F0F0F0;
+	border-top: none;
+	margin-right: 0px;
+	padding: 0px;
+	line-height: 1.3;
+}
+.headerMenu ul ul li:last-child {
+    border-bottom: initial;
+}
+.headerMenu ul ul li a{
+	padding: 17px 10px;
+	overflow: hidden;
+	color: black;
+	display: block;	
+}
+.headerMenu ul ul li:hover{
+	border-top: none;
+	background-color: #F9F9F9;
+	color: initial;
+}
+.headerMenu ul ul li:hover a, .headerMenu ul li:hover ul.sub-menu li a{
+	color: black;
+}
+.headerMenu ul ul li img{
+	float: left;
+    width: 30px;
+}
+.menuInner{
+	float: left;
+    padding-left: 13px;
+}
+.headerMenu ul ul li span{
+	padding-top: 3px;
+	font-size: 12px;
+	font-weight: 400;
+	display: block;
+	color: #999C9F;
+}
+.headerMenu ul li:hover > ul,
+.primary-menu ul li a {
+    display: block;
+}
+.downChild{
+	width: 16px;
+    padding-left: 6px;
+}
+
+/* Search Start */
+
+.searchBtn{
+	padding-left: 0 !important;
+}
+.search-box{
+	background: #f7f7f7;
+    position: absolute;
+    top: 54px;
+    right: 0;
+    width: 350px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    border-top: 2px solid #B4913A;
+    padding: 15px;
+	display: none;
+}
+
+.search-box:before{
+	content: "";
+    position: absolute;
+    top: -22px;
+    right: 12px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-bottom: 12px solid #B4913A;
+}
+
+.search-box input[type="text"]{
+	width: 250px;
+    padding: 8px 10px;
+    border: 1px solid #B4913A;
+    outline: none;
+}
+
+.search-box input[type="button"]{
+	width: 80px;
+    padding: 8px 0;
+    background: #FFCD6D;
+    color: #343A40;
+    margin-left: -6px;
+    border: 1px solid #B4913A;
+    outline: none;
+    cursor: pointer;
+}
+.searchlogoWidth{
+	width: 20px;
+    vertical-align: middle;
+}
+
+/* Search End */
+
+.theme-container{
+	margin-top: 101px;
+}
+/************Start MainHeaderSection**************/
+.mainSlideHeader{
+	background-color: #FEFBF6;
+	overflow: hidden;
+}
+.leftSection, .rightSection{
+	float: left;
+	width: 48%;
+}
+.leftSection{
+	padding: 4% 0%;
+}
+.leftSection h1{
+	line-height: 1.2;
+	font-weight: 700;
+	font-size: 68px;
+	color:#0C306A;
+}
+.leftSection p{
+	line-height: 1.3;
+	font-weight: 300;
+	font-size: 24px;
+	margin: 33px 0px;
+}
+a.blueBtn{
+	background-color: #13499F;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin:21px 0px;
+	padding: 10px 18px;
+	line-height: 1.3;
+	font-weight: 300;
+	font-size: 15px;
+	color: white;
+}
+a.blueBtn img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 7px;
+	width: 17px;
+}
+p.emergencyPnl{
+    vertical-align: top;
+	margin-bottom: 0px;
+    font-size: 12px;
+	display: block;
+}
+p.emergencyPnl img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	width: 21px;
+}
+ .rightSection{
+	float: right;
+}
+.rightSection img{
+	padding-top: 25px;
+	max-width: 100%;
+}
+/************End MainHeaderSection**************/
+
+/************Start BenefitsSection**************/
+.mainSection{
+	text-align: center;
+	padding: 5% 0%;
+	overflow: hidden;
+}
+.mainSection h1{
+	font-size: 40px;
+	color: #0F3C84;
+	font-weight: 600;
+	margin: 0px;
+}
+.benefitMain ul{
+	padding-top: 30px;
+}
+.benefitMain ul li{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding-top: 47px;
+	width: 49%;
+}
+.benefitLeft{
+	padding-right: 25px;
+	float: left;
+    width: 100px;
+}
+.benefitLeft img{
+    width: 80px;
+}
+.benefitRight{
+	float: left;
+    width: 73%;
+    padding-right:8%;
+}
+.benefitRight h2{
+	color: #343A40;
+    font-size: 24px;
+    font-weight: 400;
+	line-height: 1.3;
+    margin-bottom: 19px;
+}
+.benefitRight p, .redeInner p{
+	font-weight: lighter;
+    line-height: 1.4;
+}
+.redeInner p{
+	margin: 17px 0px;	
+}
+.redefineSection ul li{
+	border: 1px solid #F0F0F0;
+	padding-top: 0px;
+	margin-right: 1%;
+	width: 32%;
+}
+.redefineSection ul li:last-child{
+	margin-right: 0%;
+}
+.redefineSection ul li img{
+	max-width:100%;
+}
+.redeInner{
+	min-height: 244px;
+	padding: 30px;
+	padding-right: 60px;
+}
+.redeInner h2{
+	font-size: 20px;
+	color: #2B3035;
+	min-height: 60px;
+}
+.redeInner a{
+	text-decoration: none;
+	color: #13499F;
+}
+.redeInner a img{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 5px;
+	max-width:15px !important;
+}
+
+/************End BenefitsSection**************/
+/************Start CustomerSection**************/
+.yallowBk{
+	background-color: #FEFBF6;
+}
+.reviewBtn{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#13499F;
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px 30px;
+    color: white;
+    margin: 28px 0px;
+    margin-bottom: 42px;
+}
+.reviewBtn:hover{
+	text-decoration: none !important;
+    color: white !important;
+}
+.slider {
+	position: relative;
+	overflow: hidden;
+	padding-top: 3%;
+}
+.slider input[type="radio"] {
+	display: none;
+}
+.slider-content {
+	display: flex;
+	transition: transform 0.5s;
+	animation: auto-slide 5s infinite alternate;
+}
+.boxSlide {
+	flex: 0 0 calc(34% - 29px);
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 24px;
+}
+#slide1-4-4:checked ~ .slider-content {
+	transform: translateX(0%);
+}
+#slide2-4-4:checked ~ .slider-content {
+	transform: translateX(-100%);
+}
+.slider-controls {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	display: none;
+}
+.slider label {
+	-webkit-border-radius: 30px !important;
+	-moz-border-radius: 30px !important;
+	border-radius: 30px !important;
+	background: #BBBDBF !important;
+	height: 9px !important;
+	width: 9px !important;
+	cursor: pointer;
+	margin: 0 5px;
+}
+#slide1-4-4:checked ~ .slider-controls label[for="slide1-4-4"],
+#slide2-4-4:checked ~ .slider-controls label[for="slide2-4-4"] {
+	background: #8b8c8e !important;
+}
+.homeLogo{
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.06);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #FFF;
+    text-align: left;
+    overflow: hidden;
+    min-height: 185px;
+    margin-bottom:10px;
+    padding: 20px;
+}
+.homeLogo p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-top: 0;
+}
+.qomas {
+    width: 35px;
+    float: left;
+}
+.homelogoInner {
+    padding-left: 50px;
+}
+.homeLogo img{
+	max-width: 25%;	
+}
+.homeLogo .footerTestimonial img{
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	max-width: 16%;
+}
+.footerTestimonial img, .footerTestimonial h4{
+	display: inline-block !important;
+	vertical-align: middle;
+}
+.footerTestimonial{
+	padding-top: 25px;
+}
+.footerTestimonial h4{
+	padding-left: 11px;
+	font-size: 14px;
+}
+.footerTestimonial h4 span{
+	font-size: 12px;
+	display: block;
+	font-weight: 300;
+	color: #BBBDBF;
+}
+/************End CustomerSection**************/
+/************ Start Online Prescriptions ************/
+.prescriptionBkg, .solutionBkg{
+	background: linear-gradient(180deg, #FEFBF6 0%, #FFFCF4 100%);
+	padding: 4% 0;
+}
+.solutionBkg{
+	padding: 5% 0;
+}
+.prescriptionMain, .conditionMain, .solutionMain,
+.onlinePrescripMain, .onlinePrescripTxt{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row; 
+}
+.solutionMain, .onlinePrescripTxt, .onlinePrescripMain{
+	align-items: flex-start;
+}
+.prescriptionTxt h1,
+.benefitsBkg .prescriptionTxt h2,
+.conditionBkg h2, .testimonialTxt h2, .effortLessBkg h2, .prescripHead{
+	color: #0C306A;
+	font-size: 58px;
+	font-weight: 600;
+	line-height: 112.5%; 
+	padding-bottom: 20px;
+}
+.benefitsBkg .prescriptionTxt h2,
+.conditionBkg h2, .testimonialTxt h2,
+.effortLessBkg h2, .prescripHead{
+	font-size: 48px;
+	font-weight: 700;
+}
+.conditionBkg h2, .prescripHead{
+	text-align: center;
+	padding-bottom: 60px;
+}
+.prescriptionTxt ul li, .conditionTxt ul li{
+	color: #777B7F;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 12px;
+	line-height: 1.5;
+}
+.conditionTxt ul li{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.conditionTxt ul li img{
+	padding-right: 10px;
+	width:37px;
+	vertical-align: middle;
+}
+.prescriptionTxt ul li img{
+	display: inline-block;
+    vertical-align: top;
+    padding-right: 6px;
+	padding-top: 5px;
+}
+.prescriptionTxt ul li span{
+	display: inline-block;
+    vertical-align: top;
+    width: 92%;
+}
+.prescriptionTxt{
+	padding-right: 10%;
+    flex: 55%;
+}
+.prescriptionImg{
+	flex: 35%;
+}
+.prescriptionImg img, .onlinePrescripImg img{
+	width: 100%;
+}
+.getStartedBtn{
+	border-radius: 6px;
+    background: #13499F;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.getStartedBtn img{
+	padding-left: 7px;
+    display: inline-block;
+    vertical-align: middle;
+	width: 25px;
+}
+.benefitsBkg, .conditionBkg{
+	padding: 4% 0;
+}
+.onlinePrescripBkg{
+	padding: 5% 0;
+}
+.benefitsBkg .prescriptionTxt{
+	padding-right: 0%;
+	flex: 49%;
+}
+.benefitsBkg .prescriptionImg{
+	padding-right: 5%;
+    flex: 46%;
+}
+.benefitsBkg .prescriptionTxt p{
+	color: #999C9F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.effortLessBkg{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding:6% 0;
+}
+.effortLessBkg h2{
+	padding-bottom: 7px;
+	font-weight: 600;
+}
+.solutionTxt img{
+	width: 75px;
+}
+.solutionTxt h2{
+	color: #343A40;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 0;
+    line-height: 1.3;
+}
+.solutionTxt p{
+	margin: 0;
+	color: #777B7F;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+}
+.solutionTxt{
+	margin-right: 65px;
+}
+.solutionTxt:last-child{
+	margin-right: 0px;
+}
+.onlinePrescripTxt{
+	margin-right: 5%;
+}
+.onlinePrescripInner h2{
+	color: #6185BF;
+	font-size: 24px;
+	font-weight: 600;
+	padding-bottom: 15px;
+}
+.onlinePrescripInner ul li{
+	color: #777B7F;
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 1.3;
+	padding-bottom: 10px;
+}
+.onlinePrescripTxt:last-child{
+	margin-right: 0;
+}
+.onlinePrescripImg{
+	margin-right: 4%;
+}
+.onlinePrescripInner ul li img{
+	display: inline-block;
+    vertical-align: top;
+    width: 18px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+.onlinePrescripInner ul li span{
+	display: inline-block;
+    vertical-align: top;
+    width: 86%;
+}
+/************ End Online Prescriptions************/
+/************ Terms Start **************/
+.termSection{
+	padding: 4% 0%;
+	overflow: hidden;
+}
+.termLeft{
+	float: left;
+    width: 27%;
+}
+.termLeft ul li{
+	border-bottom: 1px solid #F0F0F0;
+}
+.termLeft ul li.activeMe{
+	border-bottom: 1px solid #555a5f85;
+}
+.termLeft ul li a{
+	background-image: url("https://afdhealth.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068Hs00000YgU2U&operationContext=DELIVERY&contentId=05THs00001o2bbA&page=0&d=/a/Hs0000012wuw/kAC0LefwJ90nu_SJ37AU.ndJWVvEjM7uAb2NnOA1Fpc&oid=00DHs000001QFbz&dpt=null&viewId=");
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #3A67AF;
+	color: #999C9F;
+	font-size: 18px;
+	display: block;
+    padding: 17px;
+    padding-left: 52px;
+    background-size: 28px;
+    background-position: 4% 51%;
+	filter: grayscale(100%);
+}
+.termLeft ul li.activeMe a{
+	background-color: #FEFBF6;
+	filter: inherit;
+	color: #3A67AF;
+}
+.termLeft ul li a.medIcon{
+	background-image: url("https://afdhealth.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068Hs00000YgU2T&operationContext=DELIVERY&contentId=05THs00001o2bb5&page=0&d=/a/Hs0000012wur/vdPzUHu9tF5q2bUrhlEYw4iIyXHPK1EC98Z6iH96njY&oid=00DHs000001QFbz&dpt=null&viewId=");
+}
+.termLeft ul li a.privacyIcon{
+	background-image: url("https://afdhealth.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068Hs00000YgGxH&operationContext=DELIVERY&contentId=05THs00001o21SI&page=0&d=/a/Hs0000012wXA/DbV.BBmsMjEQWRmaypV5JpmfA7YwFXE9PA5Rshd997E&oid=00DHs000001QFbz&dpt=null&viewId=");
+}
+.termLeft ul li a.hippaIcon{
+	background-image: url("https://afdhealth.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068Hs00000YgU2s&operationContext=DELIVERY&contentId=05THs00001o2bbo&page=0&d=/a/Hs0000012wv1/AmX1K27iU8h6f7JFu0AaI2BUVQOrCBgDgENjvVa5E.A&oid=00DHs000001QFbz&dpt=null&viewId=");
+}
+.termRight{
+	border-left: 1px solid #F0F0F0;
+    padding-left: 3%;
+	float: right;
+    width: 67%;
+}
+.termRight h2{
+	border-bottom: 1px solid #B0C2DF;
+	line-height: 1.2;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0C306A;
+	padding-bottom: 14px;
+    margin-bottom: 4%;
+}
+.termRight h3{
+	color: #555A5F;
+	font-size: 24px;
+	font-weight: 600;
+}
+.termRight ul{
+	margin-top: 20px;
+	padding-left: 17px;
+}
+.termRight ul li{
+	list-style: disc;
+    padding-bottom: 15px;
+}
+.termRight p{
+	margin: 20px 0px !important;
+}
+/************ End Terms************/
+/************ Faqs Start **************/
+.rightFaqs img {
+    padding-top: 86px;
+    float: right;
+}
+.faqSection{
+	padding: 4% 0%;
+	overflow: hidden;
+}
+.faq-content {
+	margin: 0 auto;
+}
+.faq-question {
+	padding: 20px 0;
+	border-bottom: 1px solid #F0F0F0;
+	position: relative;
+}
+.panel-title {
+	font-weight: 600;
+	font-size: 24px;
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 5px 10px 5px 0px;
+	display: block;
+	cursor: pointer;
+	color: #13499F;
+}
+.panel-content {
+	color: #999C9F;
+	font-size: 20px;
+	padding: 0px 14px;
+	height: 0;
+	overflow: hidden;
+	z-index: -1;
+	position: relative;
+	opacity: 0;
+	-webkit-transition: .4s ease;
+	-moz-transition: .4s ease;
+	-o-transition: .4s ease;
+	transition: .4s ease;
+}
+.panel:checked ~ .panel-content{
+	height: auto;
+	opacity: 1;
+	padding:14px 0px;
+}
+.plus {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 9px;
+	z-index: 5;
+	line-height: 100%;
+	-webkit-user-select: none;    
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-transition: .2s ease;
+	-moz-transition: .2s ease;
+	-o-transition: .2s ease;
+	transition: .2s ease;
+	right: 0px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.panel:checked ~ .plus {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+.faq-question .panel {
+  display: none;
+}
+/************ Faqs End **************/
+/************ Footer Start **************/
+.subscribeMain, .footerMain, .footercopyRight{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.footerBkg{
+	background-color: #13499F;
+	padding: 4% 0;
+	color: #fff;
+}
+.footerSocial{
+	background-color: #0C306A;
+	padding: 20px 0;
+	color: #fff;
+}
+.footercopyRight ul li{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 4px;
+}
+.footercopyRight ul li img{
+	width: 20px;
+}
+.footercopyRight, .subscribeMain{
+	align-items: center;
+}
+.footercopyRight p{
+	margin: 0;
+	color: #fff;
+	font-size: 14px;
+}
+.footerLogo .logoWidth {
+    width: 372px;
+}
+.subscribeHead h2{
+	font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.subscribeMain{
+	padding-bottom: 4%;
+    border-bottom: 2px solid #0F3C84;
+}
+.subscribeForm input[type="text"]{
+	padding: 12px 20px;
+    width: 250px;
+	margin-right: 10px;
+}
+.subscribeForm input[type="text"]{
+	background-image: url(images/email.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	border: 1px solid #fff;
+	background-position-x: 13px;
+    background-size: 16px;
+    padding-left: 38px;
+}
+.subscribeForm input[type="submit"]{
+	padding: 10px 30px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+	background-image: url(images/right_arrow.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 50px;
+    background-position-x: 110px;
+    background-size: 17px;
+	cursor: pointer;
+}
+.subscribeForm input[type="submit"]:hover{
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #000;
+	background-image: url(images/right_arrow_hover.png);
+}
+.footerLogo h2{
+	font-size: 24px;
+    color: #F1F4F9;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.footerLogo p{
+	font-size: 16px;
+    color: #B0C2DF;
+	line-height: 19.28px;
+	margin: 20px 0px;
+    font-weight: 300;
+}
+.footerBtn {
+    background-color: #FFCD6D;
+    color: #343A40;
+    padding: 14px;
+    padding: 10px 14px;
+    vertical-align: middle;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 7px;
+    display: inline-block;
+	font-weight: 500;
+}
+.footerBtn:hover{
+	color: white;
+    text-decoration: none;
+    background-color: black;
+}
+.footerNav h2{
+	font-size: 20px;
+    color: #F1F4F9;
+    font-weight: 400;
+	padding-bottom: 20px;
+}
+.footerLogo{
+	flex: 38% 0;
+}
+.footerNav ul li{
+	padding-bottom: 20px;
+}
+.footerNav ul li a{
+	font-size: 14px;
+    color: #B0C2DF;
+    text-decoration: none;
+	font-weight: 300;
+}
+.footercopyRight p a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.radio-item label p {
+    text-wrap: wrap !important;
+}
+/* Footer End */
+.show-menu {
+	background-image: url("https://afdhealth.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068Hs00000YhPra&operationContext=DELIVERY&contentId=05THs00001qzjX4&page=0&d=/a/Hs0000012y7w/5MD2CzOBqbRleEE9uu9gu1hTjOX6s0xFyUddkzLol4k&oid=00DHs000001QFbz&dpt=null&viewId=");
+	background-repeat: no-repeat;
+	text-decoration: none;
+	text-indent: -99999px;
+	padding: 14px 26px;
+	display: none;
+	position: absolute;	
+	top: 30px;
+	right: 16px;
+	background-size: 50px;
+}
+input[type=checkbox]#show-menu{
+	display: none;
+}
+@media only screen and 
+(min-width: 10px) and 
+(max-width: 1200px) {
+    .pageSize {
+        width: auto !important;
+        margin: 0 15px;
+    }
+}
+@media only screen and 
+(min-width: 10px) and
+(max-width: 1000px) {
+	.pageSize {
+        margin:0px;
+    }
+	.signupSection .rightSection{
+		float: left !important;
+		width:48% !important;
+	}
+	.memberIcon {
+		padding: 24px 0px 24px 56px !important;
+	}
+	.checkBoxList {
+		padding: 24px 10px !important;
+	}
+	.otpSection input, .signupSection input.iconMail {
+		width: 69% !important;
+	}
+	.mailOPTSend button, .otpSection button {
+		padding: 15px 13.5px !important
+	}
+	.otpSection button{
+		padding: 15px 8.5px !important;
+	}
+	.medicalConditionSection{
+		padding: 4% !important;
+	}
+	ul.bringSection li a span.arrowImg{
+		display: none !important;
+	}
+	ul.bringSection li a h2 span{
+		width: auto !important;
+	}
+	ul.bringSection li a {
+		overflow: hidden !important;
+	}
+	ul.bringSection li a h2 {
+		width: 78% !important;
+		float: right !important;
+	}
+	.radio-item{
+		width: 47% !important;
+	}
+	.radio-item label p{
+		font-size: 16px !important;
+		text-wrap: wrap !important;
+	}
+	.conditionMain{
+		display: block;
+	}
+	.conditionTxt ul li {
+		width: 32% !important;
+		display: inline-block !important;
+		vertical-align: top !important;
+	}
+	.effortLessBkg, .solutionBkg, .onlinePrescripBkg{
+		padding: 8% 4%;
+	}
+	.onlinePrescripInner ul li span{
+		width: 80%;
+	}
+	.footerLogo {
+	    flex: auto;
+	}
+	.footerLogo p{
+		padding-right: 23px;
+	}
+	.footerNav h2 {
+    	font-size: 16px;
+	}
+	.footerNav{
+		display: none;
+	}
+	.footerBkg {
+		padding: 4%;
+	}
+	.footerSocial{
+		text-align: center;
+		padding: 35px;
+	}
+	.footercopyRight ul{
+		padding-top: 15px;
+	}
+	button.nextBtn{
+		margin-top: 22px !important;
+		padding: 14px 27px !important;
+	}
+	button.prevBtn {
+		margin-right: 8px !important;
+	}
+}
+@media only screen and 
+(min-width: 10px) and
+(max-width: 768px) {
+	.mainHeader {
+		width: 100%;
+	}
+	.mainSlideHeader{
+		position: relative;
+	}
+	.mainSection, .faqSection, .mainHeader, .mainSlideHeader, .prescriptionBkg, .benefitsBkg, .conditionBkg{
+		padding: 4%;
+	}
+	.leftSection, .rightSection, .signupSection .rightSection, .rowMulti, .onlinePrescripInner ul li span{
+		float: none !important;
+		width: auto !important;
+	}
+	.rowMulti{
+		margin-right: 0% !important;
+	}
+	a.blueBtn{
+		position: absolute;
+		bottom: 0;
+		width: 88%;
+		display: block;
+		padding: 3%;
+		text-align: center;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.leftSection h1, .mainSection h1, .signupSection .leftSection h1, .thankSection h1,
+	.prescriptionTxt h1, .benefitsBkg .prescriptionTxt h2, .conditionBkg h2, 
+	.testimonialTxt h2, .effortLessBkg h2, .prescripHead {
+        font-size:32px !important;
+	}
+	.signupSection .leftSection p{
+		width: auto !important;
+	}
+	.signupSection .leftSection h1{
+		padding-right: 0% !important;
+	}
+	.acceptText{
+		padding: 25px 0px 10px 0px !important;
+   		display: block !important;
+	}
+	.otpSection input, .signupSection input.iconMail {
+		width: 76% !important;
+	}
+	.mailOPTSend button, .otpSection button{
+		padding: 15px 18.5px !important;
+	}
+	.otpSection button{
+		padding: 15px 14.5px !important;
+	}
+	.medicalForm h2 {
+		font-size: 20px !important;
+	}
+	.medicalForm label {
+		font-size: 16px !important;
+	}
+	ul.bringSection li a h2{
+		margin-left: 0px !important;
+	}
+	.radio-item {
+		width: 46% !important;
+	}
+	.radio-item label{
+		min-width: auto !important;
+	}
+	.footerLogo{
+		flex: auto;
+	}
+	/*Show menu when invisible checkbox is checked*/
+	#menu {
+		position: fixed;
+		top: 0;
+		left:0px;
+		bottom: auto;
+		height: 100vh;
+		background-color: aliceblue;
+		padding: 40px 25px;
+		width: 230px;
+		transform: translateX(-100%);
+		-ms-transform: translateX(-100%);
+		-webkit-transform: translateX(-100%);
+		-moz-transform: translateX(-100%);
+		transition: transform 0.5s;
+	}
+	input[type=checkbox]#show-menu:checked ~ #menu {
+		display: block;
+		transform: translateX(0);
+		-ms-transform: translateX(0);
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		transition: transform 0.5s;
+	}
+	.headerMenu{
+		width: 100%;
+		transition: transform 0.5s;
+	}
+	.headerMenu ul, .headerMenu ul ul li img, .headerMenu ul ul li span{
+		display: none;
+	}
+	.headerMenu ul {
+		position: static;
+	 }
+	.menuInner{
+		padding-left: 0px;
+	}
+	.headerMenu ul li.loginBtn a, .rightFaqs{
+		text-align: center;
+	}
+	/*Create vertical spacing*/
+	 .headerMenu ul li {
+		margin-bottom: 1px;
+		border-bottom: 1px solid #0c306a29;
+	 }
+	.headerMenu ul li:hover, .headerMenu ul li.slds-is-active{
+		border-top: 1px solid transparent;
+	}
+	 /*Make all menu links full width and center the text*/
+	 .headerMenu ul li, .headerMenu li a {
+		width: 100%;
+	 }
+	/*Pointer on Hover, so that the user knows of an active link*/
+	.show-menu:hover {
+		cursor:pointer;
+	}
+	.headerMenu ul ul {
+    	position: initial;
+		margin-top: 11px;
+    	padding: 8px 15px !important;
+		width: auto;
+	}
+	.headerMenu ul ul li a {
+		padding: 10px 0px;
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.downChild {
+		padding-top: 8px;
+		float: right;
+	}
+	.show-menu, .prescriptionMain, .conditionMain, .solutionMain, .onlinePrescripMain, .onlinePrescripTxt, 
+	.footercopyRight, .headerMenu ul li.loginBtn a, .headerMenu ul li a:hover + .sub-menu, .sub-menu:hover{
+		display: block;
+	}
+	.prescriptionTxt ul li, .conditionTxt ul li, .benefitsBkg .prescriptionTxt p{
+		font-size: 18px;
+	}
+	.benefitsBkg .prescriptionImg{
+		padding-right: 0px;
+		padding-bottom: 20px;
+	}
+	.conditionTxt ul li {
+    	width: 48%;
+	}
+	.solutionTxt, .onlinePrescripImg, .onlinePrescripInner{
+		margin-right: 0px;
+		margin-bottom: 35px;
+	}
+	.solutionTxt:nth-child(3){
+		margin-bottom: 0px;
+	}
+	.onlinePrescripTxt{
+		margin-right: 0px;
+	}
+	.homeLogo img {
+		max-width: 159px;
+	}
+	.redefineSection ul li {
+		padding-top: 0px;
+		margin-right:0%;
+		margin-bottom: 15px;
+		width: auto;
+	}
+	.redefineSection ul li img {
+    	width: 100%;
+	}
+	.redeInner{
+		padding-right: 30px;
+		min-height: auto;
+	}
+	.redeInner h2{
+		min-height: auto;
+	}
+	.benefitLeft {
+		padding-bottom: 15px;
+		padding-right: 0px;
+		float: none;
+		width: 100px;
+	}
+	.benefitRight {
+		float: none;
+		width: auto;
+	}
+	.benefitRight h2 {
+	    font-size: 20px;
+	}
+	.slider-content, .boxSlide{
+		display: block;
+	}
+	.homeLogo{
+		min-height: inherit;
+		margin-bottom: 35px;
+	}
+	.homeLogo p {
+	    font-size: 20px;
+	}
+	.homeLogo img {
+		max-width: 159px;
+	}
+	.rightFaqs img {
+		padding-top: 0px;
+		float: none;
+		margin: 0 auto;
+	}
+	.leftSection p {
+		font-size: 16px !important;
+		margin: 25px 0px !important;
+	}
+	.sortLabeltext{
+		margin-bottom: 18px;
+	}
+}
+@media only screen and 
+(min-width: 10px) and
+(max-width: 600px) {
+	.benefitMain ul li {
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		padding-top: 23px;
+		width: auto;
+	}
+	.benefitMain.redefineSection ul li{
+		padding-top: 0px;
+	}
+	.panel-title {
+		font-size: 20px;
+		width: 81%;
+	}
+	.rightFaqs img {
+		padding-top: 0px;
+	}
+	.plus {
+	    margin-top: 0px;
+	}
+	.plus img{
+		width: 26px;
+	}
+	.panel-content{
+		font-size: 16px;
+	}
+	.benefitRight {
+		padding-right: 0%;
+	}
+}
+@media only screen and 
+(min-width: 10px) and
+(max-width: 550px) {
+	ul.bringSection li a h2 {
+		font-size: 18px !important;
+		width: 69% !important;
+	}
+	ul.bringSection li a h2 span{
+		font-size: 14px !important;
+	}
+	ul.bringSection li a span.careImg, ul.bringSection li a span.careImg2,
+	ul.bringSection li a span.careImg3, ul.bringSection li a span.arrowImg {
+		width: 70px !important;
+		height: 70px !important;
+		background-size: 70px !important;
+	}
+	.radio-item {
+		padding-right:0px !important;
+		width:100% !important;
+	}
+	.thankImage {
+		width: 75% !important;
+	}
+	.otpSection input, .signupSection input.iconMail {
+		width: 70% !important;
+	}
+	.loginText {
+		font-size: 18px !important;
+	}
+	.conditionTxt ul li {
+    	width: 100% !important;
+	}
+}
+@media only screen and 
+(min-width: 10px) and
+(max-width: 440px) {
+	.otpSection input, .signupSection input.iconMail {
+		width: 67% !important;
+	}
+}
+@media only screen and 
+(min-width: 10px) and
+(max-width: 400px) {
+	.greyBK {
+		font-size: 15px !important;
+	}	
+	.checkBoxList {
+		display: flex !important;
+	}
+	.otpSection input, .signupSection input.iconMail {
+		width: 61% !important;
+	}
+}
+@media only screen and 
+(min-width: 10px) and
+(max-width: 370px) {
+	.mainHeader{
+		padding: 7% 4%;
+	}
+	ul.bringSection li a{
+		padding: 20px !important;
+	}
+	ul.bringSection li a h2 {
+		width: 75% !important;
+	}
+	ul.bringSection li a span.careImg, ul.bringSection li a span.careImg2,
+	ul.bringSection li a span.careImg3, ul.bringSection li a span.arrowImg {
+		width: 50px !important;
+		height: 50px !important;
+		background-size: 50px !important;
+	}
+	.leftSection h1, .mainSection h1, .signupSection .leftSection h1, .thankSection h1, 
+	.prescriptionTxt h1, .benefitsBkg .prescriptionTxt h2, .conditionBkg h2, .testimonialTxt h2, 
+	.effortLessBkg h2, .prescripHead {
+		font-size: 28px !important;
+	}
+	.headerLogo a img {
+		width: 237px;
+	}
+}

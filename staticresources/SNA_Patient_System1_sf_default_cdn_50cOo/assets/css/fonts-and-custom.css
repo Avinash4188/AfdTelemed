@@ -1,0 +1,27 @@
+h1{
+    font-size:55px !important;
+    font-weight:700;
+    line-height:1;
+    color:#0C306A;
+}
+.btnStarted{
+    background-color: #13499F;
+    padding: 10px 22px;
+    display: inline-block;
+    color: white !important;
+    font-size: 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.forceCommunitySection .cb-section_column:last-child {
+    padding: 16px 16px 0px 8px;
+}
+.forceCommunitySection .cb-section_column:first-child {
+    padding: 16px 8px 16px 16px !important;
+}
+.siteforceDesignTimeSection{
+    width:1200px;
+    margin:0 auto;
+}
+:root { --dxp-c-section-columns-max-width: 1440px; }

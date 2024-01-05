@@ -1,0 +1,38 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "269feff1-100d-4347-abb3-04514fed3cfe",
+  "label" : "About Us",
+  "regions" : [ {
+    "id" : "314f0fa6-5f55-4cee-9028-f07cfcbba757",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "1a9d8f42-b859-4fdc-8e72-8a472bb0308c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d3eb2ab4-628a-4f03-8396-9be1769a1740",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "About Us"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "384e8995-3ae0-431b-938c-f4c5d4f3e4da",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f514fad6-a3f0-4458-aac2-d4cf48f41dba",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-about-us"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "configurationTags" : [ ],
+  "id" : "c061aebe-4c36-4282-94fe-06f0c41dceef",
+  "label" : "Mental Health",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-mental-health",
+  "type" : "route",
+  "urlPrefix" : "mental-health"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "de102e05-8b22-4fae-88a5-21bc48238ecd",
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "configurationTags" : [ ],
+  "id" : "1456666a-d994-409f-aa72-6460a050472d",
+  "label" : "SignUp",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-signup",
+  "type" : "route",
+  "urlPrefix" : "signup"
+}

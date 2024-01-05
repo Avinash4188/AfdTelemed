@@ -1,0 +1,96 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Sample Custom Theme Layout">
+    
+    <aura:attribute name="search" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="profileMenu" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="newHeader" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="newFooter" type="Aura.Component[]" required="false"/>
+    <ltng:require styles="{!join(',',$Resource.TMD_Assets + '/css/styles.css')}"/>
+    
+    <div class="theme-page">
+        <header>
+            <div class="navigation">
+                <c:c_guestHeader></c:c_guestHeader>
+            </div>
+        </header>
+        <div class="theme-container">
+            {!v.body}
+        </div>
+        <footer>
+		<div class="footerBkg">
+			<div class="pageSize">
+				<!--<div class="subscribeMain">
+					<div class="subscribeHead">
+						<h2>Stay up to date with AFD - America’s Favorite Doctors</h2>
+					</div>
+					<div class="subscribeForm">
+						<form>
+							<input type="text" placeholder="Enter your email"/>
+                            <input type="submit" value="Subscribe" />
+						</form>
+					</div>
+				</div>-->
+				<div class="footerMain">
+					<div class="footerLogo">
+						<a href="javascript:void;">
+                            <img class="logoWidth" src="https://afdhealth.file.force.com/sfc/dist/version/download/?oid=00DHs000001QFbz&amp;ids=068Hs00000YfdUH&amp;d=%2Fa%2FHs0000012wvH%2FCczycpv0adndG4b.UBf_.TMnfXuthfalkcJfT1F4voQ&amp;asPdf=false" />
+						</a>
+						<h2>Join the AFD.health family!</h2>
+						<p>We are so glad you’re here! Connect with us today to begin your revolutionized healthcare journey.</p>
+						<a class="footerBtn" href="https://afdhealth--partial.sandbox.my.site.com/afd/s/signup">
+							Get Started
+						</a>
+					</div>
+					<div class="footerNav">
+						<h2>How do you feel?</h2>
+						<ul>
+							<li><a href="javascript:void;">Acne</a></li>
+							<li><a href="javascript:void;">ADHD</a></li>
+							<li><a href="javascript:void;">Anti-Age</a></li>
+							<li><a href="javascript:void;">Anxiety</a></li>
+                            <li><a href="javascript:void;">Asthma</a></li>
+							<li><a href="javascript:void;">Weight loss</a></li>
+						</ul>
+					</div>
+					<div class="footerNav">
+						<h2>Medications we can send:</h2>
+						<ul>
+							<li><a href="javascript:void;">Albuterol</a></li>
+							<li><a href="javascript:void;">Antibiotics</a></li>
+							<li><a href="javascript:void;">Finasteride</a></li>
+                            <li><a href="javascript:void;">GLP-1 Agonists</a></li>
+							
+						</ul>
+					</div>
+					<div class="footerNav">
+						<h2>Common labs</h2>
+						<ul>
+						
+							<li><a href="javascript:void;">Hemochromatosis Test</a></li>
+							<li><a href="javascript:void(0);">HSV 1&amp;2</a></li>
+							<li><a href="javascript:void;">Lyme Disease</a></li>
+                            <li><a href="javascript:void;">MTHFR</a></li>
+							<li><a href="javascript:void;">STD</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerSocial">
+			<div class="pageSize">
+				<div class="footercopyRight">
+					<p>© 2023 AFD - America's Favorite Doctor. All Rights Reserved. | <a href="javascript:void;">Terms of Use</a> | <a href="javascript:void;">Privacy Policy</a> </p>
+					<ul>
+                        <li><a href="javascript:void;"><img src="https://afdhealth.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068Hs00000YfdU4&amp;operationContext=DELIVERY&amp;contentId=05THs00001mZjef&amp;page=0&amp;d=/a/Hs0000012wvf/QPMAPni8Z5flz7nt9ZtcjUOaPxinEF_JUFlZjo9RGe4&amp;oid=00DHs000001QFbz&amp;dpt=null&amp;viewId=" alt="Twitter Logo" /></a></li>
+                        <li><a href="javascript:void;"><img src="https://afdhealth.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068Hs00000YfdUY&amp;operationContext=DELIVERY&amp;contentId=05THs00001mZjUR&amp;page=0&amp;d=/a/Hs0000012wvk/Bw6HPJC_3tWkAXj.yNJBXmDjhcaCAGcNpNYZKY_e3nE&amp;oid=00DHs000001QFbz&amp;dpt=null&amp;viewId=" alt="Linkedin Logo" /></a></li>
+                        <li><a href="javascript:void;"><img src="https://afdhealth.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068Hs00000YfdUR&amp;operationContext=DELIVERY&amp;contentId=05THs00001mZjdN&amp;page=0&amp;d=/a/Hs0000012wvl/pVinjvQ9t66ekD30kZP6H7mgELDWPPAjr3k3iLZ0MbU&amp;oid=00DHs000001QFbz&amp;dpt=null&amp;viewId=" alt="Facebook Logo" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</footer>
+    </div>
+</aura:component>

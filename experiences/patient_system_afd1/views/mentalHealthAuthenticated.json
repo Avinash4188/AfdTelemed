@@ -1,0 +1,54 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9d582073-d545-48be-b413-ed27e448fb4d",
+  "label" : "Mental Health Authenticated",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Mental Health Authenticated",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "ae6d49d0-7ec7-4423-b729-f33d952952e3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7fdadc53-ef5c-4cba-a304-12e2c71104ef",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "58c3c38a-8006-4540-a3a7-09d9a3751b65",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9f6c50d4-bfc3-470d-88bf-4b9bae5dcb04",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Mental Health"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c8c3c391-b3c8-4115-94e3-e12da8fb606a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6fc7541b-16e1-441a-ad2f-9dc4850da024",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-mental-health"
+}

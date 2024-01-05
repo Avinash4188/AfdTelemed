@@ -1,0 +1,54 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "02064bbe-8853-442e-8f7d-01c79eeefba8",
+  "label" : "Weight Loss Authenticated",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Weight Loss Autheticated",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "fd623e8e-62a2-43e8-8adf-dd40c5e6a0f6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "45b48e7c-ef7f-4aa0-9cad-938a6f131ca6",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "46b9df4a-481d-426e-a30f-8a8da0fbd2f7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "dd67de91-2ee1-4200-9465-72bd2a532334",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Weight Loss"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1e56fc44-ed1f-4465-aa6b-16e08efcaca8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7e7bcac1-b015-4b01-9438-08f7801e9635",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-weight-loss"
+}

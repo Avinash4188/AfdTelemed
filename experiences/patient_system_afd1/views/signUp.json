@@ -1,0 +1,68 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "de102e05-8b22-4fae-88a5-21bc48238ecd",
+  "label" : "SignUp",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a7c38c18-98f5-4065-8cd4-fda0e97eaeb4",
+          "columns" : [ {
+            "UUID" : "2a79e832-67db-4bdc-95be-d130425d7359",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a7c38c18-98f5-4065-8cd4-fda0e97eaeb4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:parentRegisteration",
+          "id" : "796149d8-9e84-442a-8238-9c58721322a3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2a79e832-67db-4bdc-95be-d130425d7359",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d83b79ee-b376-4a1b-afcb-b6aa674e4aa4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SignUp"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ec53e150-ab77-42de-833c-056126af4fc0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8a7fe62e-8d01-48b5-b831-15564ad91ff4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-signup"
+}

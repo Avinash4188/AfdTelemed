@@ -1,0 +1,54 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "57c843c9-b0c5-4445-b23a-0f44f68ffcf7",
+  "label" : "Integrative Medicine Authenticated",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Integrative Medicine Authenticated",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "7361dc5c-4b16-4292-b660-1b803f229bec",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1a020773-1f20-4db9-9441-efc10c5184a2",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "1d08e085-5879-4aff-8825-5d8cc8425b4a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ede4e77f-c316-4254-8129-c61997e6cf13",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Integrative Medicine"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f35889b8-b28a-4873-93f4-9790cfe01626",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "24e1e10b-94c1-4f3e-9414-e06c8d49112b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-integrative-medicine"
+}

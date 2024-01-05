@@ -1,0 +1,144 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "45f9a9a6-f8e7-4453-adf4-4906e15d42df",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "AllOpenCases",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "Case",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "7b2a837a-6af7-4c9a-b855-e7413ef36196",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5d0069e3-bd46-4adf-9664-cc8b9d9025e8",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "1336f7d7-bc0a-4c19-9726-37c2eadd0913",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "id" : "e0b5f4e9-2dc7-41c5-b43c-7e724a44174c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b155b8a9-0cab-4749-ab92-c17d96b2ca54",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "showCreateNewCalendar" : false,
+        "showOtherCalendars" : true,
+        "showSidebar" : true
+      },
+      "componentName" : "forceCommunity:calendar",
+      "id" : "4d8a7639-8059-49a3-8427-7cd6476324cd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "defaultSortOrderCompactFeed" : "Relevance",
+        "defaultSortOrderFullFeed" : "Relevance",
+        "discussionTabLabel" : "Discussions",
+        "featuredTabLabel" : "Featured",
+        "maxWidth" : 100,
+        "myFeedTabLabel" : "My Feed",
+        "overlayColor" : "rgba(0,0,0,0.6)",
+        "overlayHoverColor" : "",
+        "radius" : 0,
+        "showCompactFeedInDiscussion" : true,
+        "textAlignment" : "center",
+        "textBgColor" : "rgba(0,0,0,0)",
+        "textBgHoverColor" : "rgba(0,0,0,0)",
+        "textColor" : "",
+        "textHoverColor" : "",
+        "textPosition" : "center center"
+      },
+      "componentName" : "forceCommunity:homeTabs",
+      "id" : "b6a94c69-636f-4f2e-b2bf-dda39b44fec6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowPrepopulatePrechatFields" : true,
+        "avatarImgURL" : "",
+        "codeSettingsName" : "",
+        "defaultMinimizedText" : "Chat with an AFD Expert",
+        "displayHelpButton" : true,
+        "eswConfigurationJSON" : {
+          "baseCoreURL" : "https://afdhealth--partial.sandbox.my.salesforce.com",
+          "baseLiveAgentContentURL" : "https://c.la3-c1cs-ia6.salesforceliveagent.com/content",
+          "baseLiveAgentURL" : "https://d.la3-c1cs-ia6.salesforceliveagent.com/chat",
+          "buttonId" : "573D50000008Pqe",
+          "deploymentId" : "572D50000008PN7",
+          "enabledFeatures" : [ "LiveAgent" ],
+          "entryFeature" : "LiveAgent",
+          "eswConfigDevName" : "Chat_Agents",
+          "eswConfigId" : "04ID50000008OqgMAE",
+          "eswLiveAgentDevName" : "Chat_Agents",
+          "gslbBaseURL" : "https://service.force.com",
+          "isOfflineCasesEnabled" : "1",
+          "orgId" : "00DD50000009Reb"
+        },
+        "externalScripts" : "",
+        "externalStyles" : "",
+        "fallbackRouting" : "",
+        "offlineSupportMinimizedText" : "Contact Us",
+        "offlineText" : "Agent Offline",
+        "onlineLoadingText" : "Loading...",
+        "prechatBackgroundImgURL" : "",
+        "smallCompanyLogoImgURL" : "https://afdhealth.file.force.com/sfc/dist/version/download/?oid=00DHs000001QFbz&ids=068Hs00000YfdUC&d=%2Fa%2FHs0000012wEv%2FznB8vuTmKGILFKjlAsR30Im7Tu8q59bS9VI07pd6z1M&asPdf=false",
+        "snippetSettingsFile" : "",
+        "storageDomain" : "",
+        "waitingStateBackgroundImgURL" : ""
+      },
+      "componentName" : "forceCommunity:embeddedService",
+      "id" : "243c03d4-06f9-46c3-af70-e726dea10af7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "59f78383-ba99-4c59-8b9b-c1ad24494dc2",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6e5b4493-13fd-4788-85d4-35bc04900156",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1d476876-9801-4964-b850-9a25e0036704",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "home"
+}

@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "58503782-cfa8-4e3d-b600-4f786280ffdd",
+    "propertyOverrides" : {
+      "activeViewId" : "590d0ccf-3622-44c1-985a-bab3fef4cbf0"
+    },
+    "targetId" : "5c4735ba-c9d2-4c6e-b4bb-26efc7df083a",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Integrative_Medicine_Integrative_Medicine_Page",
+  "id" : "2864034b-db12-4711-ad79-45fcd7e5cf7b",
+  "type" : "experienceVariation"
+}

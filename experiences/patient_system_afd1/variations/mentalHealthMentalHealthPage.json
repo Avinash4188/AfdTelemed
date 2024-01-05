@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "a45d2199-f58d-4b60-b767-6d19cac1ebd5",
+    "propertyOverrides" : {
+      "activeViewId" : "6e42f420-2ff4-4022-b525-43570571f0b3"
+    },
+    "targetId" : "c061aebe-4c36-4282-94fe-06f0c41dceef",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Mental_Health_Mental_Health_Page",
+  "id" : "ea137b3e-959d-4b11-9f10-09753f106f24",
+  "type" : "experienceVariation"
+}

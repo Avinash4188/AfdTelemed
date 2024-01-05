@@ -1,0 +1,46 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b82c4e11-f0ff-421c-bae2-034a4be5d877",
+  "label" : "Guest - Prescriptions",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:guestPrescription",
+      "id" : "71e291ff-76d6-4fe9-b79e-c2ba341d3672",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "983e1c7b-5f11-4399-b194-1b835267858e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "67436198-c607-4412-926c-cc0182803099",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "4219511a-c47b-4ea6-ac99-7a227c4cc0c5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Prescriptions"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e61e17a0-5923-4023-801c-e877659dbcef",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "996b00f7-05d8-4b56-86fd-454819fd78a4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-online-prescriptions"
+}

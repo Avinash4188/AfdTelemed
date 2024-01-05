@@ -1,0 +1,46 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "990f13d8-c5d6-4fb2-a5cc-200d688433e8",
+  "label" : "Guest - Terms And Conditions",
+  "regions" : [ {
+    "id" : "d01a9ae3-74eb-434d-9b1f-509cf8d39446",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:termsAndCondition",
+      "id" : "5cdd5f53-42b1-4006-9e39-a9538bcce0bd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f82b7f48-6f8c-4a29-96f3-ecb9b3ee5447",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c380be03-7fac-447d-a0d2-702c9406b156",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Terms And Conditions"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1c8d0bdc-1762-4b46-98c9-c695e87c01b6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7f0d81c7-b0f9-4827-b566-ab2f3e7531d6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-terms-and-conditions"
+}

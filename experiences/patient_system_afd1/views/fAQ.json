@@ -1,0 +1,46 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "0e7a31c0-17b5-44b1-a768-eb04277f7ce6",
+  "label" : "FAQ",
+  "regions" : [ {
+    "id" : "1ee6aa58-f5d2-41e0-af94-0bf0e132adec",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:guestFAQs",
+      "id" : "cfd96373-9e30-425a-a7e9-79f18ff89607",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "20b42864-2c63-4a07-8854-fe5ff283aaea",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "28e0b4cf-999c-4be4-a8ff-768ddc545a22",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "FAQ"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "171c44f3-9860-4953-b34c-d9d5e36887be",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d0aae7fb-bf45-42a7-a8d3-a760dc4d4fc1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-faq"
+}

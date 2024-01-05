@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b82c4e11-f0ff-421c-bae2-034a4be5d877",
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "configurationTags" : [ ],
+  "id" : "1f268e75-d6ae-428b-802d-e33439bcff8e",
+  "label" : "Prescriptions",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-online-prescriptions",
+  "type" : "route",
+  "urlPrefix" : "online-prescriptions"
+}

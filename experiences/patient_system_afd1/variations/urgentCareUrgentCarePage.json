@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "5db9d61a-c9da-4d9d-b8fc-66c1acdc6f9b",
+    "propertyOverrides" : {
+      "activeViewId" : "139848fb-f8a3-4c09-bf96-3f133e1c4f5c"
+    },
+    "targetId" : "ed2567b4-5a43-49ad-8662-30ba3472962f",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Urgent_Care_Urgent_Care_Page",
+  "id" : "527912a7-ee91-45ab-9041-9e17aa058085",
+  "type" : "experienceVariation"
+}

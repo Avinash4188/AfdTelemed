@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "8e507324-a017-47bb-b1a0-08201101adba",
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "configurationTags" : [ ],
+  "id" : "bbd83a85-76ac-4311-8c11-dcfbaffdd4ac",
+  "label" : "Test",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-test",
+  "type" : "route",
+  "urlPrefix" : "test"
+}

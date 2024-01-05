@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "configurationTags" : [ ],
+  "id" : "ed2567b4-5a43-49ad-8662-30ba3472962f",
+  "label" : "Urgent Care",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-urgent-care",
+  "type" : "route",
+  "urlPrefix" : "urgent-care"
+}

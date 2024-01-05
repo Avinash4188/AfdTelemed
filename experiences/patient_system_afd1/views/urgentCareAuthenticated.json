@@ -1,0 +1,38 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b9f5da85-1204-43f7-b205-fb15a9489b7d",
+  "label" : "Urgent Care Authenticated",
+  "regions" : [ {
+    "id" : "2b46cece-9c68-497a-ac90-7d4aceca6ace",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "6aca180a-a89d-454e-8c96-250b83141a94",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "1612a522-1e1e-4c27-bd04-dbfef9127fb9",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Urgent Care"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "18f256d7-359c-4d13-bfbc-6920fef4a2f0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "986c99df-51ef-4eac-9f2c-ec2f7635d0b7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-urgent-care"
+}

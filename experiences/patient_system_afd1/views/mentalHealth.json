@@ -1,0 +1,54 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6e42f420-2ff4-4022-b525-43570571f0b3",
+  "label" : "Mental Health",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Mental Health Guest",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "926520b8-0482-44fe-81f7-510bcbc25e67",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bdd70c62-a7ec-45f3-a0ae-24daa6c06366",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "e8f81d25-e9eb-4532-85bf-a63541739202",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0326079a-d223-4a5f-947d-395e2d57159c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Mental Health"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a0f6d202-c447-4cfe-aed3-3893825dcaed",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c6731539-e20b-4635-85f0-1817fb6f0608",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-mental-health"
+}

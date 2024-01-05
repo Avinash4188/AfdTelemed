@@ -1,0 +1,38 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "720ed80c-d4bc-4aa6-b892-f935d58c6482",
+  "label" : "Autheticated - Perscriptions",
+  "regions" : [ {
+    "id" : "9db08b0e-a397-4127-81d6-cdfcd049a632",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "984894ca-0758-48f8-9678-378a78eb2c8a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b59f4bd3-bfaf-45df-9d6f-2dffeaeecce1",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Prescriptions"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e0870059-5913-4b6f-a20e-069c885b6f6b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e78bcfa4-d2c5-440d-8d77-dcb444ec4ea9",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-online-prescriptions"
+}

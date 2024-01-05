@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "0377ba69-22dd-4699-b673-5e668544f64e",
+    "propertyOverrides" : {
+      "activeViewId" : "720ed80c-d4bc-4aa6-b892-f935d58c6482"
+    },
+    "targetId" : "1f268e75-d6ae-428b-802d-e33439bcff8e",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Prescriptions_Autheticated_Perscriptions_Page",
+  "id" : "f6278eaa-b2bd-489f-8273-4989392d465f",
+  "type" : "experienceVariation"
+}

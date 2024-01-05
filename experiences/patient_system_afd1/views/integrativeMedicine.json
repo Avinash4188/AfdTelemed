@@ -1,0 +1,54 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "590d0ccf-3622-44c1-985a-bab3fef4cbf0",
+  "label" : "Integrative Medicine",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Integrative Medicine",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "7488fc29-edbe-4419-923f-e8526b31a97d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f6ad14e4-59a6-44f9-8ac8-100e077c8037",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "138f759f-9538-4893-9eec-485f19f7f09d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "7625db65-08d6-4397-8134-6797f586f1f9",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Integrative Medicine"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bc97db95-2dad-4717-9219-3f966654ac2a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8e4dde7b-dd20-47a6-9d98-05759f6aadea",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-integrative-medicine"
+}

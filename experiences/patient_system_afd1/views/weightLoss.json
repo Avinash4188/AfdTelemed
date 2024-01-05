@@ -1,0 +1,62 @@
+{
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "d09d52c1-d9a6-4db4-ab62-0eeca2b9f2e7",
+  "label" : "Weight Loss",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Weight Loss",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "b7486887-8bc4-4f04-ab5a-e2de201bfbae",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "508239b2-0660-4f67-a032-182dfff32ae0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:termsAndCondition",
+      "id" : "5cf89c49-31d6-4567-9238-733867db45d2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a2dc3a11-18b2-4e65-b476-da2ba8a06628",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "98a24398-3309-43be-b02e-0cce8b8fac00",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Weight Loss"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f6b44e21-045d-46ca-b25a-edec2920b296",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d52318c3-c5bf-4754-88b8-871345d4e05c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "NuwclM1UUDhlJUmLA4jJJOcP8tnqRF",
+  "type" : "view",
+  "viewType" : "custom-weight-loss"
+}

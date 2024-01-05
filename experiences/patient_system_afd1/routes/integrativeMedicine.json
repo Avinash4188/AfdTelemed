@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "configurationTags" : [ ],
+  "id" : "5c4735ba-c9d2-4c6e-b4bb-26efc7df083a",
+  "label" : "Integrative Medicine",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-integrative-medicine",
+  "type" : "route",
+  "urlPrefix" : "integrative-medicine"
+}

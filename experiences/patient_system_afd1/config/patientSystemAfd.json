@@ -1,0 +1,18 @@
+{
+  "forgotPasswordRouteId" : "7c722086-cba5-4c5b-b52a-c4726f3ed76d",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "f216f6da-49eb-4ccf-be6c-df7ce621c85c",
+  "mainAppPageId" : "90c14252-889a-4b26-a3af-b3e5f74f0f02",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "521438b7-c738-4353-87e8-280ee3196030",
+  "trustedSitesForScript" : [ {
+    "id" : "9d46b531-9633-47fd-a7d5-d467652fbddd",
+    "isActive" : true,
+    "trustedSiteName" : "chat",
+    "trustedSiteUrl" : "https://d.la3-c1cs-ia6.salesforceliveagent.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}
